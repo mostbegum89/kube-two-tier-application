@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello world'
+    return 'Hello world! Welcome back to the new world of DevOps Engineering Environement!'
 
 
 @app.route('/reverser',methods = ['POST'])
